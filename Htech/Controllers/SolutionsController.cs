@@ -13,7 +13,7 @@ namespace Htech.Controllers
         {
             return View();
         }
-        public ActionResult Techandsol()
+        public ActionResult TechnicalProductsandSolutions()
         {
             return View();
         }

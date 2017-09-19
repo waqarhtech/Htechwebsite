@@ -168,9 +168,13 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\CompanyController.cs" />
+    <Compile Include="Controllers\EducationalLaboratoriesController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\InsitutionalConsultancyController.cs" />
+    <Compile Include="Controllers\InstitutionalConsultancyController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="Controllers\ServicesController.cs" />
     <Compile Include="Controllers\SolutionsController.cs" />
     <Compile Include="Controllers\TrainingsController.cs" />
     <Compile Include="Global.asax.cs">
@@ -235,6 +239,9 @@
     <Content Include="assets\img\demo\small-property-2.jpg" />
     <Content Include="assets\img\demo\small-property-3.jpg" />
     <Content Include="assets\img\dsdsds33 - Copy.png" />
+    <Content Include="assets\img\edu1.jpg" />
+    <Content Include="assets\img\edu2.jpg" />
+    <Content Include="assets\img\edu3.jpg" />
     <Content Include="assets\img\footer-logo-2.png" />
     <Content Include="assets\img\footer-logo.png" />
     <Content Include="assets\img\icon-shearch.png" />
@@ -254,6 +261,8 @@
     <Content Include="assets\img\icon\shawer.png" />
     <Content Include="assets\img\logo.png" />
     <Content Include="assets\img\page-header.jpg" />
+    <Content Include="assets\img\pen-idea-bulb-paper.jpg" />
+    <Content Include="assets\img\pexels-photo-355988.jpeg" />
     <Content Include="assets\img\preloader.gif" />
     <Content Include="assets\img\pro-ads.jpg" />
     <Content Include="assets\img\Professional-Trainings %281%29.jpg" />
@@ -423,8 +432,28 @@
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
     <Content Include="Views\Trainings\EduSolTraining.cshtml" />
     <Content Include="Views\Solutions\EducationalSolutions.cshtml" />
-    <Content Include="Views\Solutions\Techandsol.cshtml" />
-    <Content Include="Views\InsitutionalConsultancy\E2E.cshtml" />
+    <Content Include="Views\InstitutionalConsultancy\Accreditation.cshtml" />
+    <Content Include="Views\InstitutionalConsultancy\Affiliation.cshtml" />
+    <Content Include="Views\InstitutionalConsultancy\EtoE.cshtml" />
+    <Content Include="Views\InstitutionalConsultancy\Registration.cshtml" />
+    <Content Include="Views\Company\Contactus.cshtml" />
+    <Content Include="Views\Company\Other.cshtml" />
+    <Content Include="Views\Company\OurPatners.cshtml" />
+    <Content Include="Views\Company\OverviewAboutus.cshtml" />
+    <Content Include="Views\EducationalLaboratories\EngineeringCollegeLabs.cshtml" />
+    <Content Include="Views\EducationalLaboratories\MedicalLabs.cshtml" />
+    <Content Include="Views\EducationalLaboratories\NetworkingITLabs.cshtml" />
+    <Content Include="Views\EducationalLaboratories\SchoolCollegelabs.cshtml" />
+    <Content Include="Views\Services\ConsultancyServices.cshtml" />
+    <Content Include="Views\Services\EducationalServices.cshtml" />
+    <Content Include="Views\Services\FinancialManagementServices.cshtml" />
+    <Content Include="Views\Services\HRoutsourcing.cshtml" />
+    <Content Include="Views\Services\MarketingandMobilization.cshtml" />
+    <Content Include="Views\Services\MediaandCommunication.cshtml" />
+    <Content Include="Views\Services\MonitoringandEvaluatioServices.cshtml" />
+    <Content Include="Views\Services\PlacementServices.cshtml" />
+    <Content Include="Views\Services\ScientificandTechnical.cshtml" />
+    <Content Include="Views\Solutions\TechnicalProductsandSolutions.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
