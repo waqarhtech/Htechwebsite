@@ -82,8 +82,8 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse yamm" id="navigation">
                 <div class="button navbar-right">
-                    <button class="navbar-btn nav-button wow bounceInRight login" onclick="window.open('register.html')" data-wow-delay="0.45s">Login</button>
-                    <button class="navbar-btn nav-button wow fadeInRight" onclick="window.open('submit-property.html')" data-wow-delay="0.48s">Submit</button>
+                    <button class="navbar-btn nav-button wow bounceInRight login" onclick="" data-wow-delay="0.45s">Login</button>
+                    @*<button class="navbar-btn nav-button wow fadeInRight" onclick="window.open('submit-property.html')" data-wow-delay="0.48s">Submit</button>*@
                 </div>
                 <ul class="main-nav nav navbar-nav navbar-right">
 
@@ -114,10 +114,11 @@
                         <a href="index.html" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="200">Solutions <b class="caret"></b></a>
                         <ul class="dropdown-menu navbar-nav">
                             <li>
-                                @Html.ActionLink("Education Solutions", "EducationalSolutions", "Solutions")
+                                @Html.ActionLink("Educational Solutions", "EducationalSolutions", "Solutions") 
                             </li>
                             <li>
-                                @Html.ActionLink("Technical & Solutions", "Techandsol", "Solutions")
+                                @Html.ActionLink("Technical Products & Solutions", "TechnicalProductsandSolutions", "Solutions") 
+                            </li>
 
                         </ul>
                     </li>
@@ -129,17 +130,16 @@
                         <a href="index.html" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="200">Institutional Consultancy <b class="caret"></b></a>
                         <ul class="dropdown-menu navbar-nav">
                             <li>
-                                @Html.ActionLink("E-2-E Consultancy", "E2E", "InsitutionalConsultancy")
-
+                                @Html.ActionLink("E-2-E Consultancy", "EtoE", "InstitutionalConsultancy") 
                             </li>
                             <li>
-                                <a href="index-3.html">Registration</a>
+                                @Html.ActionLink("Registration", "Registration", "InstitutionalConsultancy")
                             </li>
                             <li>
-                                <a href="index-4.html">Affiliation</a>
+                                @Html.ActionLink("Affiliation", "Affiliation", "InstitutionalConsultancy")
                             </li>
                             <li>
-                                <a href="index-5.html">Accreditation </a>
+                                @Html.ActionLink("Accreditation", "Accreditation", "InstitutionalConsultancy")
                             </li>
                         </ul>
                     </li>
@@ -156,29 +156,29 @@
                                             </h5>
                                             <ul>
                                                 <li>
-                                                    <a href="index.html">Consultancy Services </a>
+                                                    @Html.ActionLink("Consultancy Services", "ConsultancyServices", "Services")
                                                 </li>
                                                 <li>
-                                                    <a href="index-2.html">Student services</a>
+                                                    @Html.ActionLink("Educational Services", "EducationalServices", "Services")
                                                 </li>
                                                 <li>
-                                                    <a href="index-3.html">Scientific and Technical Event Management</a>
+                                                    @Html.ActionLink("Scientific and Technical Event Management", "ScientificandTechnical", "Services")
                                                 </li>
                                                 <li>
-                                                    <a href="index-4.html">HR Outsourcing</a>
+                                                    @Html.ActionLink("HR Outsourcing", "HRoutsourcing", "Services")
                                                 </li>
                                                 <li>
-                                                    <a href="index-5.html">Monitoring and Evaluation Services</a>
+                                                    @Html.ActionLink("Monitoring and Evaluation Services", "MonitoringandEvaluatioServices", "Services")
                                                 </li>
                                             </ul>
                                         </div>
                                         <div class="col-sm-3">
                                             <h5>Business Process Outsourcing (BPO)</h5>
                                             <ul>
-                                                <li><a href="blog.html">Media and Communication</a>  </li>
-                                                <li><a href="single.html">Financial Management Services</a>  </li>
-                                                <li><a href="single-right.html">Marketing and Mobilization.</a>  </li>
-                                                <li><a href="single-left.html">Placement Services </a>  </li>
+                                                <li>@Html.ActionLink("Media and Communication", "MediaandCommunication", "Services")</li>
+                                                <li>@Html.ActionLink("Financial Management Services", "MonitoringandEvaluatioServices", "Services")</li>
+                                                <li>@Html.ActionLink("Marketing and Mobilization.", "MarketingandMobilization", "Services")</li>
+                                                <li>@Html.ActionLink("Placement Services", "PlacementServices", "Services")</li>
 
                                             </ul>
                                         </div>
@@ -205,16 +205,16 @@
                         </a>
                         <ul class="dropdown-menu navbar-nav">
                             <li>
-                                <a href="index-2.html">Engineering College Labs</a>
+                                @Html.ActionLink("Engineering College Labs", "EngineeringCollegeLabs", "EducationalLaboratories")
                             </li>
                             <li>
-                                <a href="index-3.html">Networking IT Labs</a>
+                                @Html.ActionLink("Networking IT Labs", "NetworkingITLabs", "EducationalLaboratories")
                             </li>
                             <li>
-                                <a href="index-4.html">Medical Labs</a>
+                                @Html.ActionLink("Medical Labs", "MedicalLabs", "EducationalLaboratories")
                             </li>
                             <li>
-                                <a href="index-5.html">School/College Labs</a>
+                                @Html.ActionLink("School/College Labs", "SchoolCollegelabs", "EducationalLaboratories")
                             </li>
                         </ul>
                     </li>
@@ -222,16 +222,16 @@
                         <a href="index.html" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="200">Company <b class="caret"></b></a>
                         <ul class="dropdown-menu navbar-nav">
                             <li>
-                                <a href="index-2.html">Overview/About us</a>
+                                @Html.ActionLink("Overview/About us", "OverviewAboutus", "Company")
                             </li>
                             <li>
-                                <a href="index-3.html">Contact us</a>
+                                @Html.ActionLink("Contact us", "Contactus", "Company")
                             </li>
                             <li>
-                                <a href="index-4.html">Our Partners</a>
+                                @Html.ActionLink("Our Partners", "OurPatners", "Company")
                             </li>
                             <li>
-                                <a href="index-5.html">Others</a>
+                                @Html.ActionLink("Others", "Other", "Company")
                             </li>
                         </ul>
                     </li>
@@ -253,9 +253,9 @@
                         <div class="row">
                             <div class="col-md-3 col-sm-6 wow fadeInRight animated">
                                 <div class="single-footer">
-                                    <h4>About us </h4>
+                                    <h4>HTECH </h4>
                                     <div class="footer-title-line"></div>
-                                    <img src="assets/img/logo.png" alt="" class="wow pulse" data-wow-delay="1s">
+                                    <img src="~/assets/img/logo.png" alt="" class="wow pulse" data-wow-delay="1s">
                                     <p>
                                         For a workforce to remain competitive and employable in today's fast-changing workplace, they must have both knowledge and skills that are relevant, current and according to the requirements of employers.
                                     </p>
@@ -271,14 +271,14 @@
                                     <h4>Quick links </h4>
                                     <div class="footer-title-line"></div>
                                     <ul class="footer-menu">
-                                        <li><a href="properties.html">Affiliation</a>  </li>
+                                        <li>  @Html.ActionLink("Affiliation", "Affiliation", "InstitutionalConsultancy")</li>
                                         <li><a href="#">Projects</a>  </li>
                                         <li>
-                                            <a href="submit-property.html">
-                                                Scientific and Technical Event Management
-                                            </a>
+                                             @Html.ActionLink("Scientific and Technical Event Management", "ScientificandTechnical", "Services")
+                                            
                                         </li>
-                                        <li><a href="contact.html">Media and Communication</a></li>
+                                        <li>
+                                        <li>@Html.ActionLink("Media and Communication", "MediaandCommunication", "Services")</li>
                                     </ul>
                                 </div>
                             </div>
@@ -290,7 +290,7 @@
                                         <li>
                                             <div class="col-md-3 col-sm-4 col-xs-4 blg-thumb p0">
                                                 <a href="single.html">
-                                                    <img src="assets/img/demo/small-proerty-2.jpg">
+                                                    <img src="~/assets/img/demo/small-proerty-2.jpg">
                                                 </a>
                                                 <span class="blg-date">12-12-2017</span>
                                             </div>
