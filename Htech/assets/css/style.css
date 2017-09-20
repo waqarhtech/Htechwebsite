@@ -17,7 +17,7 @@ body {
 /*           Font Smoothing      */
 
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6, p, .navbar, .brand, .btn-simple{
-    -moz-osx-font-smoothing: grayscale;
+    /*-moz-osx-font-smoothing: grayscale;*/
     -webkit-font-smoothing: antialiased;
 }
 
@@ -1008,11 +1008,11 @@ label small{
 
 .slider-area{
     position: relative;
-    height: 630px
+    max-height: 330px
 }
 #bg-slider .item img{
     width: 100%;
-    height: 630px
+   max-height : 330px
 }
 
 .slider-content{
@@ -1549,6 +1549,8 @@ padding: 0 0 0.5em;
 }
 .overflow{
     overflow: hidden;
+    min-height:300px;
+    overflow:auto;
 }
 .mar-l-20{
     margin-left: 20px;
@@ -1563,13 +1565,13 @@ padding: 0 0 0.5em;
     box-sizing: border-box;
     padding: 20px;
     box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
+
 }
 .box-two {
     background: #FFF none repeat scroll 0% 0%;
 
     border: 1px solid #E6E6E6;
     box-sizing: border-box;
-
     box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
 }
 .dot-hr{
@@ -1718,6 +1720,8 @@ proerty-th
 }
 .proerty-th .proerty-item  .item-entry{
     padding: 8px;
+    min-height:300px;
+    overflow:auto;
 
 }
 .properties-page .proerty-th .proerty-price{
@@ -1801,6 +1805,7 @@ proerty-th-list
 .proerty-th-list .col-md-3{
     width: 100%;
     padding: 15px 10px;
+    max-height:600px;
 }
 .proerty-th-list .col-md-3 .item-thumb{
     width:40%;
