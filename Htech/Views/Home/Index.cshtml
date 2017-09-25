@@ -175,6 +175,7 @@
         </div>
     </div>
 </div>
+
 <!-- property area -->
 <div class="content-area home-area-1 recent-property" style="background-color: #FCFCFC; padding-bottom: 55px;">
     <div class="container">
@@ -191,10 +192,10 @@
                 <div class="col-sm-6 col-md-3 p0">
                     <div class="box-two proerty-item">
                         <div class="item-thumb">
-                            <a href="property-1.html"><img src="~/assets/img/demo/property-1.jpg"></a>
+                            <a href="#"><img src="~/assets/img/demo/property-1.jpg"></a>
                         </div>
                         <div class="item-entry overflow">
-                            <h5><a href="property-1.html">Trainings </a></h5>
+                            <h5>@Html.ActionLink("Trainings","EduSolTraining","Trainings")</h5>
                             <div class="dot-hr"></div>
                             <span class="pull-left"><p>Harmony Technologies (Private) Limited is committed to transform education in Pakistan to build a better society. We believe that education should empower students to succeed not just in schools but in life. To prepare for the jobs of tomorrow, today's students must be provided with new skills, taught in new ways.</p> </span>
 
@@ -204,10 +205,11 @@
                 <div class="col-sm-6 col-md-3 p0">
                     <div class="box-two proerty-item">
                         <div class="item-thumb">
-                            <a href="property-2.html"><img src="~/assets/img/demo/property-2.jpg"></a>
+                            <a href="#"><img src="~/assets/img/demo/property-2.jpg"></a>
                         </div>
                         <div class="item-entry overflow">
-                            <h5><a href="property-2.html">Educational Services  </a></h5>
+                            <h5>
+                                @Html.ActionLink("Educational Services ", "EducationalSolutions", "Solutions") </h5>
                             <div class="dot-hr"></div>
                             <span class="pull-left"><p> Education is not just listening lectures, performing stereotype experiments and getting prepared for standard tests. It’s a process of preparing people to be successful, productive, and engaged members of the society</p> </span>
 
@@ -217,10 +219,12 @@
                 <div class="col-sm-6 col-md-3 p0">
                     <div class="box-two proerty-item">
                         <div class="item-thumb">
-                            <a href="property-3.html"><img src="~/assets/img/demo/property-3.jpg"></a>
+                            <a href="#"><img src="~/assets/img/demo/property-3.jpg"></a>
                         </div>
                         <div class="item-entry overflow">
-                            <h5><a href="property-3.html">Networking IT Labs</a></h5>
+                            <h5>
+                                 @Html.ActionLink("Networking IT Labs", "NetworkingITLabs", "EducationalLaboratories")
+                            </h5>
                             <div class="dot-hr"></div>
                             <span class="pull-left"><p> Harmony Technologies (Private) Limited is committed to transform education in Pakistan to build a better society. We believe that education should empower students to succeed not just in schools but in life. To prepare for the jobs of tomorrow, today's students must be provided with new skills, taught in new ways</p> </span>
 
@@ -230,11 +234,11 @@
                  <div class="col-sm-6 col-md-3 p0">
                     <div class="box-two proerty-item">
                         <div class="item-thumb">
-                            <a href="property-1.html" ><img src="~/assets/img/demo/property-4.jpg"></a>
+                            <a href="#" ><img src="~/assets/img/demo/property-4.jpg"></a>
 
                         </div> 
                 <div class="item-entry overflow">
-                    <h5><a href="property-1.html" >Soltutions </a></h5>
+                    <h5>@Html.ActionLink("Technical & Solutions", "TechnicalProductsandSolutions", "Solutions")  </h5>
                     <div class="dot-hr"></div>
                     <span class="pull-right"><p>Harmony Technologies (Private) Limited is committed to transform education in Pakistan to build a better society. We believe that education should empower students to succeed not just in schools but in life. To prepare for the jobs of tomorrow, today's students must be provided with new skills, taught in new ways</p></span>
                 </div> 
@@ -467,7 +471,7 @@
                                 <h2 class="percent" id="counter3">5000</h2>
                                 <h5>Enroled Students</h5>
                             </div>*@
-                        </@*div>
+                        @*</*@@*div>
                     </div>
                 </div>
             </div>

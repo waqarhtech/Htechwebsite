@@ -61,7 +61,7 @@
         background-color: #FFF !important;
     }
     .slider-content {
-        top: 10%;
+        top: 11%;
     }
     .search-btn, .toggle-btn { 
         margin-bottom: 15px;
@@ -109,12 +109,12 @@
     .main-nav{
         padding-top: 4px;
     }
-    .navbar-default .navbar-nav > li > a.active::after{
+    .navbar-default .navbar-nav > li > a.active:after{
         bottom: -2px;
         height: 2px;
         width: 100%;
     }
-    .navbar-default .navbar-nav > li > a::after{
+    .navbar-default .navbar-nav > li > a:after{
         bottom: -2px;
         height: 2px;
     }
@@ -122,7 +122,7 @@
         padding: 0px 25px;
     }
 
-    .slider-content {
+    html > /**/ body .slider-content {
         padding: 10px;
     }
     .search-toggle .mar-l-20 {
@@ -162,7 +162,7 @@
         width: 100%;
     }
 
-    .slider-content {
+    .slider-content1{
         top: 5%;
     }
     .slider-area{
@@ -439,17 +439,17 @@
     .main-nav {
         padding-top: 4px;
     }
-    .navbar-default .navbar-nav > li > a.active::after {
+    .navbar-default .navbar-nav > li > a.active:after  {
         bottom: -2px;
         height: 2px;
         width: 100%;
     }
-    .navbar-default .navbar-nav > li > a::after {
+    .navbar-default .navbar-nav > li > a:after {
         bottom: -2px;
         height: 2px;
     }
 
-    .slider-content {
+    html > /**/ body .slider-content {
         margin-left: 0px;
         padding: 25px;
     }
@@ -461,11 +461,11 @@
         font-size: 12px;
         margin-bottom: 50px;
     }
-    .search-form {
+    .searchform {
         padding: 20px 30px;
     }
 
-    .slider-content {
+    .slidercontent {
         top: 5%;
     }
     .slider-area{
@@ -543,10 +543,10 @@
     .single-footer ul li a {
         font-size: 13px;
     }
-    .home-lager-shearch .large-search {
+    .home-lager-shearch .largesearch {
         padding: 10px;
     }
-    .home-lager-shearch{
+    .home-lagershearch{
         padding-top: 0px;
         margin-top: -200px;
     }
@@ -769,7 +769,7 @@
         padding: 0px 0px 0.35em;
         font-size: 14px;
     }
-    .client-text {
+    .clienttext {
         border-radius: 2px;
         padding: 15px 15px;
         margin: 15px;
