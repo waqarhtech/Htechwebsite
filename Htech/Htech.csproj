@@ -207,6 +207,7 @@
     <Content Include="assets\css\slider.css" />
     <Content Include="assets\css\style.css" />
     <Content Include="assets\css\styleNoJS.css" />
+    <Content Include="assets\css\styleOverride.css" />
     <Content Include="assets\css\wizard.css" />
     <Content Include="assets\fonts\fontawesome-webfont.svg" />
     <Content Include="assets\fonts\fontawesome-webfont_1.svg" />
@@ -360,6 +361,11 @@
     <Content Include="Content\Site.css" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="bootstrap\css\bootstrap.css.map" />
+    <Content Include="bootstrap\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="bootstrap\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="bootstrap\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="bootstrap\fonts\glyphicons-halflings-regular.woff2" />
     <Content Include="assets\fonts\fontawesome-webfont.eot" />
     <Content Include="assets\fonts\fontawesome-webfont.ttf" />
     <Content Include="assets\fonts\fontawesome-webfont.woff" />
@@ -378,11 +384,6 @@
     <Content Include="assets\fonts\icon-7-stroke\fonts\Pe-icon-7-stroke.eot" />
     <Content Include="assets\fonts\icon-7-stroke\fonts\Pe-icon-7-stroke.ttf" />
     <Content Include="assets\fonts\icon-7-stroke\fonts\Pe-icon-7-stroke.woff" />
-    <Content Include="bootstrap\css\bootstrap.css.map" />
-    <Content Include="bootstrap\fonts\glyphicons-halflings-regular.eot" />
-    <Content Include="bootstrap\fonts\glyphicons-halflings-regular.ttf" />
-    <Content Include="bootstrap\fonts\glyphicons-halflings-regular.woff" />
-    <Content Include="bootstrap\fonts\glyphicons-halflings-regular.woff2" />
     <None Include="Properties\PublishProfiles\htech.com.pk - Web Deploy.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
