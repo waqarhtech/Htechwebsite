@@ -168,14 +168,9 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\AccountController.cs" />
-    <Compile Include="Controllers\CompanyController.cs" />
-    <Compile Include="Controllers\EducationalLaboratoriesController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
-    <Compile Include="Controllers\InsitutionalConsultancyController.cs" />
-    <Compile Include="Controllers\InstitutionalConsultancyController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
-    <Compile Include="Controllers\ServicesController.cs" />
-    <Compile Include="Controllers\SolutionsController.cs" />
+    <Compile Include="Controllers\StudentServicesController.cs" />
     <Compile Include="Controllers\TrainingsController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -359,6 +354,19 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="Images\atomix_user31.png" />
+    <Content Include="Images\BPO.png" />
+    <Content Include="Images\Bringing the gap among organizations - with Transparent Background - with BG Gear.png" />
+    <Content Include="Images\Bringing the gap among.png" />
+    <Content Include="Images\bulb 02.png" />
+    <Content Include="Images\EDU LAB PNG FILE.png" />
+    <Content Include="Images\Htech.png" />
+    <Content Include="Images\IMG_1078.JPG" />
+    <Content Include="Images\IMG_3595.JPG" />
+    <Content Include="Images\INDUSTRY POST FOR HTECH - DESIGN 03.jpg" />
+    <Content Include="Images\sld1.JPG" />
+    <Content Include="Images\sld2.png" />
+    <Content Include="Images\sld3.JPG" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="bootstrap\css\bootstrap.css.map" />
@@ -431,7 +439,6 @@
     <Content Include="Views\Manage\VerifyPhoneNumber.cshtml" />
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
-    <Content Include="Views\Trainings\EduSolTraining.cshtml" />
     <Content Include="Views\Solutions\EducationalSolutions.cshtml" />
     <Content Include="Views\InstitutionalConsultancy\Accreditation.cshtml" />
     <Content Include="Views\InstitutionalConsultancy\Affiliation.cshtml" />
@@ -455,6 +462,12 @@
     <Content Include="Views\Services\PlacementServices.cshtml" />
     <Content Include="Views\Services\ScientificandTechnical.cshtml" />
     <Content Include="Views\Solutions\TechnicalProductsandSolutions.cshtml" />
+    <Content Include="Views\Trainings\fundedtrainings.cshtml" />
+    <Content Include="Views\Trainings\nonfundedtrainings.cshtml" />
+    <Content Include="Views\StudentServices\CareerCounseling.cshtml" />
+    <Content Include="Views\StudentServices\FYPAssistance.cshtml" />
+    <Content Include="Views\StudentServices\HostelsandCafetria.cshtml" />
+    <Content Include="Views\StudentServices\PickandDrop.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

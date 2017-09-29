@@ -36,26 +36,24 @@
     <div id="preloader">
         <div id="status">&nbsp;</div>
     </div>
-    <div class="header-connect">
+    <div class="header-connect" >
         <div class="container">
             <div class="row">
                 <div class="col-md-5 col-sm-8  col-xs-12">
                     <div class="header-half header-call">
                         <p>
-                            <span><i class="pe-7s-call"></i> +92 51 8736667-8</span>
-                            <span><i class="pe-7s-mail"></i> info@htech.com.pk</span>
+                            <span style="color:white"><i class="pe-7s-call"></i> +92 51 8487410</span>
+                            <span style="color:white"><i class="pe-7s-mail"></i> info@htech.com.pk</span>
                         </p>
                     </div>
                 </div>
                 <div class="col-md-2 col-md-offset-5  col-sm-3 col-sm-offset-1  col-xs-12">
                     <div class="header-half header-social">
                         <ul class="list-inline">
-                            <li><a href="https://www.facebook.com/htech.com.pk/" target="_blank"><i class="fa fa-facebook"></i></a></li>
-                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                            <li><a href="#"><i class="fa fa-vine"></i></a></li>
-                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                            <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-                            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                            <li style="color:white"><a href="https://www.facebook.com/htech.com.pk/" target="_blank"><i class="fa fa-facebook" style="color:white"></i></a></li>
+                            <li ><a href="#"><i class="fa fa-twitter" style="color:white"></i></a></li>
+                            <li><a href="#"><i class="fa fa-linkedin" style="color:white"></i></a></li>
+                            <li ><a href="#"><b style="color:white">Contact Us</b></a></li>
                         </ul>
                     </div>
                 </div>
@@ -85,52 +83,53 @@
                     <!-- <li class="wow fadeInDown" data-wow-delay="0.2s"><a class="" href="properties.html">Trainings</a></li> -->
                     <li class="dropdown yamm-fw" data-wow-delay="0.4s">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="200">Trainings <b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                            <li>
-                                <div class="yamm-content">
-                                    <div class="row">
-                                        <div class="col-sm-3">
-                                            <h5>Educational Solutions</h5>
-                                            <ul>
-                                                @*<li><a href="#">Trainings </a></li>*@
-                                                <li>@Html.ActionLink("Trainings", "EduSolTraining", "Trainings")</li>
-                                            </ul>
-                                        </div>
-
-                                    </div>
-                                </div>
-                                <!-- /.yamm-content -->
-                            </li>
+                       <ul class="dropdown-menu">
+        <li>
+            <div class="yamm-content">
+                <div class="row">
+                    <div class="col-sm-3">
+                        <h5>Trainings</h5>
+                        <ul>
+                            
+                            <li>@Html.ActionLink("Funded Trainings", "fundedtrainings", "Trainings")</li>
+                            <li>@Html.ActionLink("Non-Funded Trainings", "nonfundedtrainings", "Trainings")</li>
                         </ul>
+                    </div>
+
+                </div>
+            </div>
+            <!-- /.yamm-content -->
+        </li>
+    </ul>
                     </li>
                     <li class="dropdown yamm-fw" data-wow-delay="0.4s">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="200">Solutions <b class="caret"></b></a>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="200">Student Services <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                             <li>
                                 <div class="yamm-content">
                                     <div class="row">
                                         <div class="col-sm-3">
                                             <h5>
-                                                Educational Services
+                                                Student Services
                                             </h5>
                                             <ul>
+                                                
                                                 <li>
-                                                    @Html.ActionLink("Educational Solutions", "EducationalSolutions", "Solutions")
-
+                                                    @Html.ActionLink("Career Counseling", "CareerCounseling", "StudentServices")
                                                 </li>
                                                 <li>
-                                                    @Html.ActionLink("Technical Products & Solutions", "TechnicalProductsandSolutions", "Solutions")
-
+                                                    @Html.ActionLink("FYP Assistance", "FYPAssistance", "StudentServices")
+                                                </li>
+                                                <li>
+                                                    @Html.ActionLink("Hostels & Cafeteria", "HostelsandCafetria", "StudentServices")
                                                 </li>
                                                 @*<li>
-                                                        @Html.ActionLink("Scientific and Technical Event Management", "ScientificandTechnical", "Services")
-                                                    </li>
-                                                    <li>
-                                                        @Html.ActionLink("HR Outsourcing", "HRoutsourcing", "Services")
-                                                    </li>
-                                                    <li>
-                                                        @Html.ActionLink("Monitoring and Evaluation Services", "MonitoringandEvaluatioServices", "Services")
-                                                    </li>*@
+                                                    @Html.ActionLink("Scientific & Technical Event Management Services", "HRoutsourcing", "Services")
+                                                </li>*@
+                                                <li>
+                                                    @Html.ActionLink("PickandDrop", "PickandDrop","StudentServices")
+                                                </li>
+                                                
                                             </ul>
                                         </div>
 
@@ -155,7 +154,11 @@
                                             </h5>
                                             <ul>
                                                 <li>
-                                                    @Html.ActionLink("E-2-E Consultancy", "EtoE", "InstitutionalConsultancy")
+                                                    @Html.ActionLink("E2E Consultancy", "EtoE", "InstitutionalConsultancy")
+                                                </li>
+                                                <li>
+                                                    @Html.ActionLink("Feasibility", "Registration", "InstitutionalConsultancy")
+
                                                 </li>
                                                 <li>
                                                     @Html.ActionLink("Registration", "Registration", "InstitutionalConsultancy")
@@ -167,7 +170,10 @@
                                                 <li>
                                                     @Html.ActionLink("Accreditation", "Accreditation", "InstitutionalConsultancy")
                                                 </li>
+                                                <li>
+                                                    @Html.ActionLink("Tracer Studies", "Registration", "InstitutionalConsultancy")
 
+                                                </li>
                                             </ul>
                                         </div>
 
@@ -182,50 +188,27 @@
 
 
                     <li class="dropdown yamm-fw" data-wow-delay="0.4s">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="200">Services <b class="caret"></b></a>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="200">BPO <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                             <li>
                                 <div class="yamm-content">
                                     <div class="row">
-                                        <div class="col-sm-3">
-                                            <h5>
-                                                Educational Services
-                                            </h5>
-                                            <ul>
-                                                <li>
-                                                    @Html.ActionLink("Consultancy Services", "ConsultancyServices", "Services")
-                                                </li>
-                                                <li>
-                                                    @Html.ActionLink("Educational Services", "EducationalServices", "Services")
-                                                </li>
-                                                <li>
-                                                    @Html.ActionLink("Scientific and Technical Event Management", "ScientificandTechnical", "Services")
-                                                </li>
-                                                <li>
-                                                    @Html.ActionLink("HR Outsourcing", "HRoutsourcing", "Services")
-                                                </li>
-                                                <li>
-                                                    @Html.ActionLink("Monitoring and Evaluation Services", "MonitoringandEvaluatioServices", "Services")
-                                                </li>
-                                            </ul>
-                                        </div>
+                                        
                                         <div class="col-sm-3">
                                             <h5>Business Process Outsourcing (BPO)</h5>
                                             <ul>
-                                                <li>@Html.ActionLink("Media and Communication", "MediaandCommunication", "Services")</li>
-                                                <li>@Html.ActionLink("Financial Management Services", "MonitoringandEvaluatioServices", "Services")</li>
-                                                <li>@Html.ActionLink("Marketing and Mobilization.", "MarketingandMobilization", "Services")</li>
-                                                <li>@Html.ActionLink("Placement Services", "PlacementServices", "Services")</li>
+                                                <li>@Html.ActionLink("HR Outsourcing", "MediaandCommunication", "Services")</li>
+                                                <li>@Html.ActionLink("Mobilization & Placement", "MarketingandMobilization", "Services")</li>
+                                                <li>@Html.ActionLink("Monitoring & Evaluation", "PlacementServices", "Services")</li>
+                                                <li>@Html.ActionLink("Complaint Management", "PlacementServices", "Services")</li>
+                                                <li>@Html.ActionLink("Financial Management & Billing", "MonitoringandEvaluatioServices", "Services")</li>
+                                                <li>@Html.ActionLink("Media & Communication", "MediaandCommunication", "Services")</li>
+                                                
+                                                
+                                                
                                             </ul>
                                         </div>
-                                        <div class="col-sm-3">
-                                            <h5>Technical Solutions</h5>
-                                            <!-- <ul>
-                                                <li><a href="property-1.html">Property pages style (1)</a> </li>
-                                                <li><a href="property-2.html">Property pages style (2)</a> </li>
-                                                <li><a href="property-3.html">Property pages style (3)</a> </li>
-                                            </ul> -->
-                                        </div>
+                                        
                                     </div>
                                 </div>
                                 <!-- /.yamm-content -->
@@ -234,28 +217,24 @@
                     </li>
                     <!-- <li class="wow fadeInDown" data-wow-delay="0.5s"><a href="contact.html">Educational Laboratories </a></li> -->
                     <li class="dropdown yamm-fw" data-wow-delay="0.4s">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="200">Educational Laboratories <b class="caret"></b></a>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="200">Educational Labs <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                             <li>
                                 <div class="yamm-content">
                                     <div class="row">
                                         <div class="col-sm-3">
                                             <h5>
-                                                Educational Laboratories
+                                                Educational Labs
                                             </h5>
                                             <ul>
                                                 <li>
-                                                    @Html.ActionLink("Engineering College Labs", "EngineeringCollegeLabs", "EducationalLaboratories")
+                                                    @Html.ActionLink("Electrical & Electronics Engineering Labs", "EngineeringCollegeLabs", "EducationalLaboratories")
                                                 </li>
                                                 <li>
-                                                    @Html.ActionLink("Networking IT Labs", "NetworkingITLabs", "EducationalLaboratories")
-
+                                                    @Html.ActionLink("Mechanical & Civil Engineering Labs", "EngineeringCollegeLabs", "EducationalLaboratories")
                                                 </li>
                                                 <li>
-                                                    @Html.ActionLink("Medical Labs", "MedicalLabs", "EducationalLaboratories")
-                                                </li>
-                                                <li>
-                                                    @Html.ActionLink("School/College Labs", "SchoolCollegelabs", "EducationalLaboratories")
+                                                    @Html.ActionLink("School & College Labs", "SchoolCollegelabs", "EducationalLaboratories")
                                                 </li>
 
                                             </ul>
@@ -269,30 +248,30 @@
                         </ul>
                     </li>
                     <li class="dropdown yamm-fw" data-wow-delay="0.4s">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="200">Company <b class="caret"></b></a>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="200">About Us <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                             <li>
                                 <div class="yamm-content">
                                     <div class="row">
                                         <div class="col-sm-3">
                                             <h5>
-                                                Company
+                                                About Us
                                             </h5>
                                             <ul>
                                                 <li>
-                                                    @Html.ActionLink("Overview/About us", "OverviewAboutus", "Company")
+                                                    @Html.ActionLink("The Company", "OverviewAboutus", "Company")
+                                                </li>
+                                                
+                                                <li>
+                                                    @Html.ActionLink("Partners & Sponsors", "OurPatners", "Company")
                                                 </li>
                                                 <li>
-                                                    @Html.ActionLink("Contact us", "Contactus", "Company")
+                                                    @Html.ActionLink("Clients & Collaborators", "Other", "Company")
+                                                </li>
+                                                <li>
+                                                    @Html.ActionLink("Careers", "Contactus", "Company")
 
                                                 </li>
-                                                <li>
-                                                    @Html.ActionLink("Our Partners", "OurPatners", "Company")
-                                                </li>
-                                                <li>
-                                                    @Html.ActionLink("Others", "Other", "Company")
-                                                </li>
-
                                             </ul>
                                         </div>
 
@@ -339,11 +318,11 @@
                                         <li>  @Html.ActionLink("Affiliation", "Affiliation", "InstitutionalConsultancy")</li>
                                         <li><a href="#">Projects</a>  </li>
                                         <li>
-                                            @Html.ActionLink("Scientific and Technical Event Management", "ScientificandTechnical", "Services")
+                                            @Html.ActionLink("Scientific & Technical Event Management", "ScientificandTechnical", "Services")
 
                                         </li>
                                         <li>
-                                        <li>@Html.ActionLink("Media and Communication", "MediaandCommunication", "Services")</li>
+                                        <li>@Html.ActionLink("Media & Communication", "MediaandCommunication", "Services")</li>
                                     </ul>
                                 </div>
                             </div>
@@ -411,9 +390,8 @@
                                         <ul>
                                             <li><a class="wow fadeInUp animated" href="#"><i class="fa fa-twitter"></i></a></li>
                                             <li><a class="wow fadeInUp animated" href="https://www.facebook.com/htech.com.pk/" data-wow-delay="0.2s" target="_blank"><i class="fa fa-facebook"></i></a></li>
-                                            <li><a class="wow fadeInUp animated" href="#" data-wow-delay="0.3s"><i class="fa fa-google-plus"></i></a></li>
                                             <li><a class="wow fadeInUp animated" href="#" data-wow-delay="0.4s"><i class="fa fa-instagram"></i></a></li>
-                                            <li><a class="wow fadeInUp animated" href="#" data-wow-delay="0.6s"><i class="fa fa-dribbble"></i></a></li>
+                            
                                         </ul>
                                     </div>
                                 </div>

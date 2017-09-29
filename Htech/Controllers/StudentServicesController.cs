@@ -6,22 +6,22 @@ using System.Web.Mvc;
 
 namespace Htech.Controllers
 {
-    public class EducationalLaboratoriesController : Controller
+    public class StudentServicesController : Controller
     {
-        // GET: EducationalLaboratories
-        public ActionResult EngineeringCollegeLabs()
+        // GET: StudentServices
+        public ActionResult CareerCounseling()
         {
             return View();
         }
-        public ActionResult NetworkingITLabs()
+        public ActionResult FYPAssistance()
         {
             return View();
         }
-        public ActionResult MedicalLabs()
+        public ActionResult HostelsandCafetria()
         {
             return View();
         }
-        public ActionResult SchoolCollegelabs()
+        public ActionResult PickandDrop()
         {
             return View();
         }

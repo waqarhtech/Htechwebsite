@@ -9,10 +9,13 @@ namespace Htech.Controllers
     public class TrainingsController : Controller
     {
         // GET: Trainings
-        public ActionResult EduSolTraining()
+        public ActionResult fundedtrainings()
         {
             return View();
         }
-        
+        public ActionResult nonfundedtrainings()
+        {
+            return View();
+        }
     }
 }
