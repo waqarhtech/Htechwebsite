@@ -71,7 +71,9 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="@Url.Action("Index","Home")"><img src="~/assets/img/logo.png" alt="Htech Logo"></a>
+
+                
+                <a class="navbar-brand" href="@Url.Action("Index","Home")"><img src="~/Images/HTECH LOGO 1.png"  alt="Htech Logo"></a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse yamm" id="navigation">
@@ -154,24 +156,24 @@
                                             </h5>
                                             <ul>
                                                 <li>
-                                                    @Html.ActionLink("E2E Consultancy", "EtoE", "InstitutionalConsultancy")
+                                                    @Html.ActionLink("E2E Consultancy", "E2EConsultancy", "Consultancy")
                                                 </li>
                                                 <li>
-                                                    @Html.ActionLink("Feasibility", "Registration", "InstitutionalConsultancy")
+                                                    @Html.ActionLink("Feasibility", "Registration", "Consultancy")
 
                                                 </li>
                                                 <li>
-                                                    @Html.ActionLink("Registration", "Registration", "InstitutionalConsultancy")
+                                                    @Html.ActionLink("Registration", "Registration", "Consultancy")
 
                                                 </li>
                                                 <li>
-                                                    @Html.ActionLink("Affiliation", "Affiliation", "InstitutionalConsultancy")
+                                                    @Html.ActionLink("Affiliation", "Affiliation", "Consultancy")
                                                 </li>
                                                 <li>
-                                                    @Html.ActionLink("Accreditation", "Accreditation", "InstitutionalConsultancy")
+                                                    @Html.ActionLink("Accreditation", "Accreditation", "Consultancy")
                                                 </li>
                                                 <li>
-                                                    @Html.ActionLink("Tracer Studies", "Registration", "InstitutionalConsultancy")
+                                                    @Html.ActionLink("Tracer Studies", "TracerStudies", "Consultancy")
 
                                                 </li>
                                             </ul>
@@ -197,12 +199,12 @@
                                         <div class="col-sm-3">
                                             <h5>Business Process Outsourcing (BPO)</h5>
                                             <ul>
-                                                <li>@Html.ActionLink("HR Outsourcing", "MediaandCommunication", "Services")</li>
-                                                <li>@Html.ActionLink("Mobilization & Placement", "MarketingandMobilization", "Services")</li>
-                                                <li>@Html.ActionLink("Monitoring & Evaluation", "PlacementServices", "Services")</li>
-                                                <li>@Html.ActionLink("Complaint Management", "PlacementServices", "Services")</li>
-                                                <li>@Html.ActionLink("Financial Management & Billing", "MonitoringandEvaluatioServices", "Services")</li>
-                                                <li>@Html.ActionLink("Media & Communication", "MediaandCommunication", "Services")</li>
+                                                <li>@Html.ActionLink("HR Outsourcing", "HROutsourcing", "BPO")</li>
+                                                <li>@Html.ActionLink("Mobilization & Placement", "MobilizationPlacement", "BPO")</li>
+                                                <li>@Html.ActionLink("Monitoring & Evaluation", "MonitoringandEvaluation", "BPO")</li>
+                                                <li>@Html.ActionLink("Complaint Management", "ComplaintManagement", "BPO")</li>
+                                                <li>@Html.ActionLink("Financial Management & Billing", "FinancialManagementandBilling", "BPO")</li>
+                                                <li>@Html.ActionLink("Media & Communication", "MediaandCommunication", "BPO")</li>
                                                 
                                                 
                                                 
@@ -228,13 +230,13 @@
                                             </h5>
                                             <ul>
                                                 <li>
-                                                    @Html.ActionLink("Electrical & Electronics Engineering Labs", "EngineeringCollegeLabs", "EducationalLaboratories")
+                                                    @Html.ActionLink("Electrical & Electronics Engineering Labs", "ElectricalandElectronicsEngineeringLabs", "EducationLabs")
                                                 </li>
                                                 <li>
-                                                    @Html.ActionLink("Mechanical & Civil Engineering Labs", "EngineeringCollegeLabs", "EducationalLaboratories")
+                                                    @Html.ActionLink("Mechanical & Civil Engineering Labs", "MechanicalandCivilEngineeringLabs", "EducationLabs")
                                                 </li>
                                                 <li>
-                                                    @Html.ActionLink("School & College Labs", "SchoolCollegelabs", "EducationalLaboratories")
+                                                    @Html.ActionLink("School & College Labs", "SchoolandCollegeLabs", "EducationLabs")
                                                 </li>
 
                                             </ul>
@@ -259,17 +261,17 @@
                                             </h5>
                                             <ul>
                                                 <li>
-                                                    @Html.ActionLink("The Company", "OverviewAboutus", "Company")
+                                                    @Html.ActionLink("The Company", "TheCompany", "AboutUs")
                                                 </li>
                                                 
                                                 <li>
-                                                    @Html.ActionLink("Partners & Sponsors", "OurPatners", "Company")
+                                                    @Html.ActionLink("Partners & Sponsors", "PartnersandSponsors", "AboutUs")
                                                 </li>
                                                 <li>
-                                                    @Html.ActionLink("Clients & Collaborators", "Other", "Company")
+                                                    @Html.ActionLink("Clients & Collaborators", "ClientsandCollaborators", "AboutUs")
                                                 </li>
                                                 <li>
-                                                    @Html.ActionLink("Careers", "Contactus", "Company")
+                                                    @Html.ActionLink("Careers", "Careers", "AboutUs")
 
                                                 </li>
                                             </ul>

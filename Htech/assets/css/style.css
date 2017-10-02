@@ -89,8 +89,8 @@ a:focus {
     text-decoration: none;
 }
 img {
-    height: auto;
-    max-width: 100%;
+    height:auto;
+    max-width: 200%;
     vertical-align: middle;
     border: 0px none; 
 }
@@ -3065,4 +3065,15 @@ padding: 10px;
 
 .carousel-control.left, .carousel-control.right {
     background-image: none
+}
+.more {
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    line-height: 140px;
+}
+.p {
+    font-size: 15px;
+    line-height: 1.6180em;
 }
