@@ -174,6 +174,7 @@
     <Compile Include="Controllers\EducationLabsController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="Controllers\RDController.cs" />
     <Compile Include="Controllers\StudentServicesController.cs" />
     <Compile Include="Controllers\TrainingsController.cs" />
     <Compile Include="Global.asax.cs">
@@ -354,31 +355,40 @@
     <Content Include="bootstrap\js\npm.js" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="favicon-32x32.ico" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
     <Content Include="Images\atomix_user31.png" />
+    <Content Include="Images\BPO %281%29.png" />
     <Content Include="Images\BPO.png" />
     <Content Include="Images\Bringing the gap among organizations - with Transparent Background - with BG Gear.png" />
     <Content Include="Images\Bringing the gap among organizations - with Transparent Background - Without BG Gear %283%29.png" />
     <Content Include="Images\Bringing the gap among.png" />
     <Content Include="Images\bulb 02.png" />
+    <Content Include="Images\DOWNLOAD.png" />
     <Content Include="Images\E2E CONSULTANCY.png" />
     <Content Include="Images\EDU LAB PNG FILE.png" />
     <Content Include="Images\EDU lab.png" />
     <Content Include="Images\et0e.png" />
+    <Content Include="Images\FUNDING %281%29.png" />
+    <Content Include="Images\FUNDING.png" />
     <Content Include="Images\HTECH LOGO - Copy.png" />
     <Content Include="Images\HTECH LOGO 1.png" />
     <Content Include="Images\Htech.png" />
     <Content Include="Images\Htech1.png" />
     <Content Include="Images\Htech2.png" />
+    <Content Include="Images\images %281%29.png" />
+    <Content Include="Images\images %283%29.png" />
     <Content Include="Images\IMG_1078.JPG" />
     <Content Include="Images\IMG_3595.JPG" />
     <Content Include="Images\INDUSTRY POST FOR HTECH - DESIGN 03.jpg" />
     <Content Include="Images\module-dfnd%401x.png" />
     <Content Include="Images\module-flying-car%401x.png" />
     <Content Include="Images\module-ipnd%401x.png" />
+    <Content Include="Images\ongoing.png" />
+    <Content Include="Images\ONGOING_PROJECTS.png" />
     <Content Include="Images\pexels-photo-355988.jpeg" />
     <Content Include="Images\sld1.JPG" />
     <Content Include="Images\sld2.png" />
@@ -464,10 +474,6 @@
     <Content Include="Views\Company\Other.cshtml" />
     <Content Include="Views\Company\OurPatners.cshtml" />
     <Content Include="Views\Company\OverviewAboutus.cshtml" />
-    <Content Include="Views\EducationalLaboratories\EngineeringCollegeLabs.cshtml" />
-    <Content Include="Views\EducationalLaboratories\MedicalLabs.cshtml" />
-    <Content Include="Views\EducationalLaboratories\NetworkingITLabs.cshtml" />
-    <Content Include="Views\EducationalLaboratories\SchoolCollegelabs.cshtml" />
     <Content Include="Views\Services\ConsultancyServices.cshtml" />
     <Content Include="Views\Services\EducationalServices.cshtml" />
     <Content Include="Views\Services\FinancialManagementServices.cshtml" />
@@ -503,6 +509,7 @@
     <Content Include="Views\AboutUs\PartnersandSponsors.cshtml" />
     <Content Include="Views\AboutUs\ClientsandCollaborators.cshtml" />
     <Content Include="Views\AboutUs\Careers.cshtml" />
+    <Content Include="Views\RD\RDHome.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -521,6 +528,9 @@
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>favicon.ico</ApplicationIcon>
   </PropertyGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />

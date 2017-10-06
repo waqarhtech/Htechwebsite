@@ -31,19 +31,21 @@
     <link rel="stylesheet" href="~/assets/css/owl.transitions.css">
     <link rel="stylesheet" href="~/assets/css/style.css">
     <link rel="stylesheet" href="~/assets/css/responsive.css">
+    
 </head>
 <body>
     <div id="preloader">
         <div id="status">&nbsp;</div>
     </div>
+    
     <div class="header-connect" >
         <div class="container">
             <div class="row">
                 <div class="col-md-5 col-sm-8  col-xs-12">
                     <div class="header-half header-call">
                         <p>
-                            <span style="color:white"><i class="pe-7s-call"></i> +92 51 8487410</span>
-                            <span style="color:white"><i class="pe-7s-mail"></i> info@htech.com.pk</span>
+                            <span style="color:white"><i class="pe-7s-call" style="font-weight:800"></i><b> +92 51 8487410</b></span>
+                            <span style="color:white"><i class="pe-7s-mail" style="font-weight:800"></i><b> info@htech.com.pk</b></span>
                         </p>
                     </div>
                 </div>
@@ -72,8 +74,9 @@
                     <span class="icon-bar"></span>
                 </button>
 
+               
                 
-                <a class="navbar-brand" href="@Url.Action("Index","Home")"><img src="~/Images/HTECH LOGO 1.png"  alt="Htech Logo"></a>
+                <a class="navbar-brand" href="@Url.Action("Index","Home")"><img src="~/Images/HTECH LOGO - Copy.png"  alt="Htech Logo"></a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse yamm" id="navigation">
@@ -84,38 +87,26 @@
                 <ul class="main-nav nav navbar-nav navbar-right">
                     <!-- <li class="wow fadeInDown" data-wow-delay="0.2s"><a class="" href="properties.html">Trainings</a></li> -->
                     <li class="dropdown yamm-fw" data-wow-delay="0.4s">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="200">Trainings <b class="caret"></b></a>
-                       <ul class="dropdown-menu">
-        <li>
-            <div class="yamm-content">
-                <div class="row">
-                    <div class="col-sm-3">
-                        <h5>Trainings</h5>
-                        <ul>
-                            
-                            <li>@Html.ActionLink("Funded Trainings", "fundedtrainings", "Trainings")</li>
-                            <li>@Html.ActionLink("Non-Funded Trainings", "nonfundedtrainings", "Trainings")</li>
-                        </ul>
-                    </div>
-
-                </div>
-            </div>
-            <!-- /.yamm-content -->
-        </li>
-    </ul>
-                    </li>
-                    <li class="dropdown yamm-fw" data-wow-delay="0.4s">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="200">Student Services <b class="caret"></b></a>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="200">Tranings <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                             <li>
                                 <div class="yamm-content">
                                     <div class="row">
                                         <div class="col-sm-3">
                                             <h5>
-                                                Student Services
+                                                Tranings
                                             </h5>
                                             <ul>
-                                                
+
+                                                <li>@Html.ActionLink("Funded Trainings", "fundedtrainings", "Trainings")</li>
+                                                <li>@Html.ActionLink("Non-Funded Trainings", "nonfundedtrainings", "Trainings")</li>
+                                                <li>@Html.ActionLink("Additional Services", "nonfundedtrainings", "Trainings")</li>
+                                            </ul>
+                                        </div>
+                                        @*<div class="col-sm-3">
+                                            <h5>Additional Services</h5>
+                                            <ul>
+
                                                 <li>
                                                     @Html.ActionLink("Career Counseling", "CareerCounseling", "StudentServices")
                                                 </li>
@@ -124,15 +115,58 @@
                                                 </li>
                                                 <li>
                                                     @Html.ActionLink("Hostels & Cafeteria", "HostelsandCafetria", "StudentServices")
-                                                </li>
-                                                @*<li>
-                                                    @Html.ActionLink("Scientific & Technical Event Management Services", "HRoutsourcing", "Services")
                                                 </li>*@
-                                                <li>
-                                                    @Html.ActionLink("PickandDrop", "PickandDrop","StudentServices")
+                                                @*<li>
+                @Html.ActionLink("Scientific & Technical Event Management Services", "HRoutsourcing", "Services")
+            </li>*@
+                                                @*<li>
+                                                    @Html.ActionLink("PickandDrop", "PickandDrop", "StudentServices")
                                                 </li>
-                                                
+
                                             </ul>
+                                            
+                                        </div>
+                                        
+                                    </div>
+                                </div>*@
+                                <!-- /.yamm-content -->
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="dropdown yamm-fw" data-wow-delay="0.4s">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="200">R&D <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <div class="yamm-content">
+                                    <div class="row">
+                                        <div class="col-sm-3">
+                                            <h5>
+                                                Research and Developement
+                                                    
+                                            </h5>
+                                            <ul>
+
+                                                <li>
+                                                    @Html.ActionLink(" Research Home", "RDHome", "RD")
+                                                </li>
+                                                <li>
+                                                    @Html.ActionLink("Industrial and Technical Projects", "FYPAssistance", "StudentServices")
+                                                </li>
+                                                <li>
+                                                    @Html.ActionLink("Social Developement Projects", "FYPAssistance", "StudentServices")
+                                                </li>
+                                                <li>
+                                                    @Html.ActionLink("FYP Assistance", "FYPAssistance", "StudentServices")
+                                                </li>
+                                                <li>
+                                                    @Html.ActionLink("Publications", "FYPAssistance", "StudentServices")
+                                                </li>
+                                                <li>
+                                                    @Html.ActionLink("Scientific Events", "FYPAssistance", "StudentServices")
+                                                </li>
+
+                                                </ul>
                                         </div>
 
                                     </div>
@@ -303,7 +337,9 @@
                                 <div class="single-footer">
                                     <h4>HTECH </h4>
                                     <div class="footer-title-line"></div>
-                                    <img src="~/assets/img/logo.png" alt="" class="wow pulse" data-wow-delay="1s">
+
+                                    
+                                    <img src="~/Images/HTECH LOGO - Copy.png"alt="" class="wow pulse" data-wow-delay="1s">
 
                                     <ul class="footer-adress">
                                         <li><i class="pe-7s-map-marker strong"> </i> Plot No. 176, Industrial Area, I-10/3, Islamabad.</li>
