@@ -3087,3 +3087,6 @@ padding: 10px;
     padding: 50px;
     line-height:  1.6180em;
 }*/
+.make-it-slow:hover:bg {
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
